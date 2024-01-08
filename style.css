@@ -116,6 +116,7 @@ main section#welcome #partyImage{
     background-repeat: no-repeat;
     background-size: contain;
 }
+
 main section#welcome #partyImage #articleContainer{
     color:white;
     width:100%;
@@ -126,27 +127,31 @@ main section#welcome #partyImage #articleContainer{
     align-items: center;
 }
 main section#welcome #partyImage #articleContainer #flexInPartyBox{
-    width:80%;
+    width:62%;
     margin: auto;
+}
+main section#welcome #partyImage #flexInPartyBox2 img#partyVibes{
+    width: 250px;
+    padding-right:100px;
 }
 
 main section#welcome #partyImage #articleContainer h1#welcomeText{
 font-family: 'Merriweather', serif;
-font-size: 64px;
+font-size: 50px;
 font-style: normal;
 font-weight: 900;
-line-height: 88px;
+line-height: 60px;
 letter-spacing: 7.04px;
 margin:0px;
 }
 main section#welcome #partyImage #articleContainer p#welcomeSpeech{
 color: rgba(255, 255, 255, 0.80);
 font-family: 'Inter', sans-serif;
-font-size: 18px;
+font-size: 15px;
 font-style: normal;
 font-weight: 400;
 line-height: 30px;
-padding-right: 160px;
+/* padding-right: 160px; */
 }
 main section#welcome #partyImage #articleContainer button#joinUs{
 color: #FFF;
